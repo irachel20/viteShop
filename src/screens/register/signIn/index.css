@@ -1,0 +1,15 @@
+@media screen and (max-width: 440px) {
+  .sign-in-form {
+    padding: 0 0.5rem !important;
+  }
+  .buttons {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .sign-in-btn-1 {
+    width: 230px !important;
+  }
+  .dont-hv-account{
+    width: 230px !important;
+  }
+} 

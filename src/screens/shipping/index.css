@@ -1,0 +1,41 @@
+@media screen and (max-width: 1200px) {
+  .whole {
+    padding: 3rem 3rem !important;
+  }
+  .billing-address {
+    width: 60% !important;
+  }
+  .billing-summary {
+    width: 30% !important;
+  }
+}
+@media screen and (max-width: 720px) {
+  .whole {
+    flex-wrap: wrap !important;
+    padding: 2rem 1rem !important;
+    justify-content: center !important;
+  }
+  .billing-address {
+    width: 100% !important;
+  }
+  .billing-summary {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .first-last-name-input,
+  .state-more-input {
+    flex-wrap: wrap !important;
+    gap: 1rem !important;
+  }
+  .paypal , .credit-and-icon , .fields-for-credit-card  {
+    flex-direction: column !important;
+    align-items: start !important;
+    gap: 1rem;
+  }
+  
+  .paypal-desc {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,22 @@
+.header {
+  top: 0;
+  z-index: 1;
+}
+
+@media screen and (max-width: 800px) {
+  .top-header {
+    display: none !important ;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .options {
+    display: none !important ;
+  }
+  .menu-bar {
+    display: flex !important ;
+  }
+  .header {
+    justify-content: space-between !important ;
+  }
+}

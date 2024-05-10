@@ -1,0 +1,9 @@
+@media screen and (max-width:800px) {
+    .goals{
+        width: 100% !important;
+        margin-bottom: 1rem !important;
+    }
+    .team{
+        width: 80% !important;
+    }
+}

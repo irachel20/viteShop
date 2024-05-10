@@ -1,0 +1,20 @@
+@media screen and (max-width: 920px) {
+  .bottom-footer {
+    flex-wrap: wrap !important ;
+    justify-content: center !important;
+  }
+  footer,
+  .contact-in-footer {
+    flex-direction: column !important;
+    padding: 1rem !important;
+  }
+  .desc-futura-modal {
+    margin-bottom: 1rem !important;
+  }
+  .model-accepting,
+  .contact-in-footer,
+  .desc-futura-modal {
+    width: 100% !important;
+    /* background-color: rgb(220, 220, 220); */
+  }
+}

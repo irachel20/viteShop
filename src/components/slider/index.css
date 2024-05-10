@@ -1,0 +1,10 @@
+.splide__arrow svg :hover {
+  fill: #4e80ee;
+}
+.splide__arrow svg {
+  fill: #f9fafb;
+}
+
+.splide__arrow {
+  background-color: transparent ;
+}

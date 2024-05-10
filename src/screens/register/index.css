@@ -1,0 +1,41 @@
+.back-img {
+    background-image: url("/public/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 48rem;
+    background-position: center;
+  }
+  
+  .back-color {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+  }
+  
+  .thanks-img {
+    background-image: url("/public/thankyou.png");
+    background-size: contain;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .thanks-img {
+      display: none !important;
+    }
+    .sign-in-form {
+      width: 100% !important;
+    }
+  }
+  
+  @media screen and (max-width: 560px) {
+    .back-color {
+      width: 100% !important;
+    }
+    .back-img {
+      padding: 0 1rem !important;
+    }
+  }
+  
+  @media screen and (max-width: 440px) {
+    .back-color {
+      height: max-content;
+    }
+  }
+  

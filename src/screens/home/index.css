@@ -1,0 +1,81 @@
+.category-1 {
+  background-image: url("./../../../public/categori1.png");
+  width: 400px;
+}
+.category-2 {
+  background-image: url("./../../../public/categori2.png");
+}
+.category-3 {
+  background-image: url("./../../../public/categori3.png");
+}
+.category-4 {
+  background-image: url("./../../../public/categori4.png");
+}
+.category-5 {
+  background-image: url("./../../../public/categori5.jpg");
+}
+
+.category-1,
+.category-2,
+.category-3,
+.category-4,
+.category-5 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.category-1,
+.category-2,
+.category-5 {
+  height: 400px;
+}
+
+.category-3,
+.category-4,
+.category-2,
+.category-5 {
+  width: 200px;
+}
+
+.category-3,
+.category-4 {
+  height: 190px;
+}
+
+@media screen and (max-width: 800px) {
+  .img-about-what-we-do {
+    width: 100% !important ;
+  }
+  .text-about-what-we-do {
+    width: 100% !important ;
+  }
+  .about-what-we-do {
+    padding: 2rem;
+    flex-wrap: wrap;
+  }
+  .brand-bandage {
+    display: none !important;
+  }
+  .insta-desc {
+    width: 100% !important ;
+  }
+  .insta-imgs{
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .new-old-section {
+    flex-direction: row !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .new-old-section {
+    flex-direction: column !important;
+  }
+  .category-1 {
+    width: 200px;
+    background-position: center;
+  }
+}

@@ -1,0 +1,21 @@
+@media screen and (max-width: 440px) {
+
+  .buttons {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .sign-in-btn-2 {
+    width: 230px !important;
+  }
+  .create-account-2 {
+    width: 230px !important;
+  }
+  .username{
+    margin-bottom: 1.5rem !important;
+  }
+
+  .new-info {
+    flex-wrap: wrap !important;
+  }
+
+}

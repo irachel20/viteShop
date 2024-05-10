@@ -1,0 +1,48 @@
+.bg-back {
+  background-image: url("/public/XCM_1099155_Manual_2135x626_1099155_Apparel_New_seaso1099155_Apparel_N_2018_05_jpg_SS18_Hero_Banners.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 18rem;
+  width: 100%;
+  background-position: top center;
+}
+
+
+
+
+@media screen and (max-width: 720px) {
+  .left-filter {
+    width: 100% !important;
+    justify-content: start !important;
+    padding: 0.5rem !important;
+  }
+  .whole,
+  .all-products {
+    justify-content: center !important;
+  }
+  
+  .all-products {
+    width: 100% !important;
+  }
+  .category-and-price {
+    flex-direction: row !important;
+    justify-content: start !important;
+    align-items: center !important;
+    gap: 2rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .left-filter {
+width: 90% !important;
+  }
+  .whole,
+  .all-products {
+    justify-content: center !important;
+  }
+  
+  .all-products {
+    width: 100% !important;
+  }
+}
